@@ -38,4 +38,18 @@ print('\tPython') # Tabulacao
 print('Eu\nsou\numa quebra de\nlinha') #Quebra de linha
 print('Eu sou um\n\tnovo paragrafo')
 
+# Removendo espacos em branco
+palavra = 'Python   '
+print(len(palavra))
+palavra = palavra.rstrip() ## Remove os caracteres em branco do lado direito
+print(len(palavra))
 
+palavra2 = '  Python'
+print(len(palavra2))
+palavra2 = palavra2.lstrip() ## Remove os caracteres em branco do lado esquerdo
+print(len(palavra2))
+
+##NUMEROS
+age = 23
+message = 'happy ' + str(age) + 'rd Birthday'
+print(message)
