@@ -129,3 +129,33 @@ for d in desconvidados:
     print('Ola ' + d + ', voce foi desconvidado do churras')
     convidados.remove(d)
 print(convidados)
+
+## Ordenando uma lista
+## O método sort( ) é permanente
+carros = ['bmw', 'audi', 'toyota', 'subaru']
+carros.sort() ## Ordenando a lista por ordem alfabetica
+print(carros)
+
+carros = ['bmw', 'audi', 'toyota', 'subaru']
+carros.sort(reverse=True) ## Ordenando a lista por ordem alfabética inversa
+print(carros)
+
+## Ordenando a lista de forma temporária
+carros2 = ['bmw', 'audi', 'toyota', 'subaru']
+print(carros2)
+print(sorted(carros2))
+print(carros2)
+
+carros3 = ['bmw', 'audi', 'toyota', 'subaru']
+print(carros3)
+carros3.reverse() ## Inverte a lista --> de trás para frente
+print(carros3)
+
+### EXERCICIO ###
+paises = ['nova zelandia', 'peru', 'filipinas', 'india', 'africa do sul']
+print(paises)
+
+print(sorted(paises))
+
+paises.reverse()
+
